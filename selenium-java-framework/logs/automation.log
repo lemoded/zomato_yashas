@@ -1,0 +1,398 @@
+2026-08-10 08:49:08 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 08:49:08 INFO  BaseTest - =========================================================
+2026-08-10 08:49:08 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 08:49:08 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 08:49:08 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 08:49:08 INFO  BaseTest - =========================================================
+2026-08-10 08:49:08 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 08:49:08 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 08:49:12 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 08:49:12 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 08:49:22 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 08:49:22 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 08:53:03 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 08:53:03 INFO  BaseTest - =========================================================
+2026-08-10 08:53:03 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 08:53:03 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 08:53:03 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 08:53:03 INFO  BaseTest - =========================================================
+2026-08-10 08:53:03 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 08:53:03 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 08:53:04 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 08:53:04 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 08:53:10 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 08:53:10 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 08:57:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 08:57:58 INFO  BaseTest - =========================================================
+2026-08-10 08:57:58 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 08:57:58 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 08:57:58 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 08:57:58 INFO  BaseTest - =========================================================
+2026-08-10 08:57:58 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 08:57:58 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 08:58:00 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 08:58:00 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 08:58:06 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 08:58:06 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 09:00:17 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 09:00:17 INFO  BaseTest - =========================================================
+2026-08-10 09:00:17 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 09:00:17 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 09:00:17 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 09:00:17 INFO  BaseTest - =========================================================
+2026-08-10 09:00:17 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 09:00:17 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 09:00:18 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 09:00:18 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 09:00:24 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 09:00:24 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 09:02:12 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 09:02:12 INFO  BaseTest - =========================================================
+2026-08-10 09:02:12 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 09:02:12 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 09:02:12 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 09:02:12 INFO  BaseTest - =========================================================
+2026-08-10 09:02:13 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 09:02:13 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 09:02:14 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 09:02:14 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 09:02:21 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 09:02:21 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 09:05:04 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 09:05:04 INFO  BaseTest - =========================================================
+2026-08-10 09:05:04 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 09:05:04 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 09:05:04 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 09:05:04 INFO  BaseTest - =========================================================
+2026-08-10 09:05:04 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 09:05:05 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 09:05:07 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 09:05:07 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 09:05:14 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 09:05:14 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 09:18:00 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 09:18:00 INFO  BaseTest - =========================================================
+2026-08-10 09:18:00 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 09:18:00 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 09:18:00 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 09:18:00 INFO  BaseTest - =========================================================
+2026-08-10 09:18:00 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 09:18:00 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 09:18:02 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 09:18:02 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 09:18:11 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 09:18:11 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 09:18:49 WARN  BasePage - Native click intercepted for [[[ChromeDriver: chrome on windows (b216cbe255dd7c1f6862bbff25af74d9)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]], retrying via JavaScript click: element click intercepted: Element <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a> is not clickable at point (167, 253). Other element would receive the click: <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a>
+  (Session info: chrome=151.0.7922.76)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b216cbe255dd7c1f6862bbff25af74d9, clickElement {id=f.0DCCE40E8744D0AB6C54F5DD49817F49.d.80F7B770EF3732F848BD32BF95147195.e.1269}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.76, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57872}, goog:processID: 16000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57872/devtoo..., se:cdpVersion: 151.0.7922.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b216cbe255dd7c1f6862bbff25af74d9)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]
+Session ID: b216cbe255dd7c1f6862bbff25af74d9
+2026-08-10 09:21:56 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 09:21:56 INFO  BaseTest - =========================================================
+2026-08-10 09:21:56 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 09:21:56 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 09:21:56 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 09:21:56 INFO  BaseTest - =========================================================
+2026-08-10 09:21:56 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 09:21:56 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 09:21:58 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 09:21:58 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 09:22:05 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 09:22:05 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 09:22:35 WARN  BasePage - Native click intercepted for [[[ChromeDriver: chrome on windows (b4088cf7b0b749b3f2f35bbd74af5475)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]], retrying via JavaScript click: element click intercepted: Element <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a> is not clickable at point (60, 253). Other element would receive the click: <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a>
+  (Session info: chrome=151.0.7922.76)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4088cf7b0b749b3f2f35bbd74af5475, clickElement {id=f.9073C2EEB6DA1BFD56A468DEEF44A0B8.d.39840F3678F7A5CC31F671D5914D3FAA.e.1117}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.76, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51481}, goog:processID: 15480, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51481/devtoo..., se:cdpVersion: 151.0.7922.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b4088cf7b0b749b3f2f35bbd74af5475)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]
+Session ID: b4088cf7b0b749b3f2f35bbd74af5475
+2026-08-10 09:28:05 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 09:28:05 INFO  BaseTest - =========================================================
+2026-08-10 09:28:05 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 09:28:05 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 09:28:05 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 09:28:05 INFO  BaseTest - =========================================================
+2026-08-10 09:28:05 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 09:28:05 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 09:28:07 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 09:28:07 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 09:28:13 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 09:28:13 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 09:28:31 WARN  BasePage - Native click intercepted for [[[ChromeDriver: chrome on windows (15fe4ea7582d2fb891c5c1f156b35a32)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]], retrying via JavaScript click: element click intercepted: Element <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a> is not clickable at point (155, 253). Other element would receive the click: <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a>
+  (Session info: chrome=151.0.7922.76)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15fe4ea7582d2fb891c5c1f156b35a32, clickElement {id=f.57420D4A91632821AB05F079406BFC21.d.E61C1BFA626060C9C4D785DB17DFD8B1.e.1043}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.76, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57066}, goog:processID: 12372, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57066/devtoo..., se:cdpVersion: 151.0.7922.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (15fe4ea7582d2fb891c5c1f156b35a32)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]
+Session ID: 15fe4ea7582d2fb891c5c1f156b35a32
+2026-08-10 09:34:29 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 09:34:29 INFO  BaseTest - =========================================================
+2026-08-10 09:34:29 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 09:34:29 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 09:34:29 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 09:34:29 INFO  BaseTest - =========================================================
+2026-08-10 09:34:29 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 09:34:29 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 09:34:30 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 09:34:31 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 09:34:37 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 09:34:37 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 09:34:50 WARN  BasePage - Native click intercepted for [[[ChromeDriver: chrome on windows (5b5d7f59c08865647e2a44de9c13f6c0)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]], retrying via JavaScript click: element click intercepted: Element <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a> is not clickable at point (175, 253). Other element would receive the click: <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a>
+  (Session info: chrome=151.0.7922.76)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b5d7f59c08865647e2a44de9c13f6c0, clickElement {id=f.1CAA14C1FAEE8C8DD3BA129A367A357C.d.24B06970C5873804AA1E9AC997E6007E.e.1224}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.76, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57504}, goog:processID: 15608, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57504/devtoo..., se:cdpVersion: 151.0.7922.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5b5d7f59c08865647e2a44de9c13f6c0)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]
+Session ID: 5b5d7f59c08865647e2a44de9c13f6c0
+2026-08-10 09:41:20 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 09:41:20 INFO  BaseTest - =========================================================
+2026-08-10 09:41:20 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 09:41:20 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 09:41:20 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 09:41:20 INFO  BaseTest - =========================================================
+2026-08-10 09:41:20 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 09:41:20 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 09:41:22 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 09:41:22 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 09:41:28 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 09:41:28 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 09:41:47 WARN  BasePage - Native click intercepted for [[[ChromeDriver: chrome on windows (b5a1b48dace5e9fd9c91491af44ad5c1)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]], retrying via JavaScript click: element click intercepted: Element <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a> is not clickable at point (175, 253). Other element would receive the click: <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a>
+  (Session info: chrome=151.0.7922.76)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5a1b48dace5e9fd9c91491af44ad5c1, clickElement {id=f.D22E4BC477F4F69D442F60C4261953B1.d.BD06B61D519F779AEA5AB851E68A7672.e.1100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.76, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58111}, goog:processID: 10276, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58111/devtoo..., se:cdpVersion: 151.0.7922.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b5a1b48dace5e9fd9c91491af44ad5c1)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]
+Session ID: b5a1b48dace5e9fd9c91491af44ad5c1
+2026-08-10 09:44:40 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 09:44:40 INFO  BaseTest - =========================================================
+2026-08-10 09:44:40 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 09:44:40 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 09:44:40 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 09:44:40 INFO  BaseTest - =========================================================
+2026-08-10 09:44:40 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 09:44:40 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 09:44:41 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 09:44:41 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 09:44:50 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 09:44:50 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 09:45:22 WARN  BasePage - Native click intercepted for [[[ChromeDriver: chrome on windows (c5143c110357053e57d1a852573fbe10)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]], retrying via JavaScript click: element click intercepted: Element <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a> is not clickable at point (175, 253). Other element would receive the click: <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a>
+  (Session info: chrome=151.0.7922.76)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5143c110357053e57d1a852573fbe10, clickElement {id=f.330DE7664A6D74E450D4636F88336C14.d.7B5DA897754B3AB93F44D98B222DFDAD.e.1273}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.76, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63372}, goog:processID: 9120, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63372/devtoo..., se:cdpVersion: 151.0.7922.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c5143c110357053e57d1a852573fbe10)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]
+Session ID: c5143c110357053e57d1a852573fbe10
+2026-08-10 10:33:59 INFO  Utils - [TestNG] Running:
+  C:\Users\Dell\AppData\Local\JetBrains\IntelliJIdea2026.1\temp-testng-customsuite.xml
+
+2026-08-10 10:33:59 INFO  BaseTest - =========================================================
+2026-08-10 10:33:59 INFO  PropertyUtils - Loaded base configuration from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 10:33:59 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\Dell\Documents\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 10:33:59 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 10:33:59 INFO  BaseTest - =========================================================
+2026-08-10 10:33:59 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 10:33:59 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 10:34:03 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 10:34:03 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dell\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 10:34:14 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 10:34:14 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 10:34:28 WARN  BasePage - Native click intercepted for [[[ChromeDriver: chrome on windows (a9de0cbdb0bbd1554fef5ec2e5407b70)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]], retrying via JavaScript click: element click intercepted: Element <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a> is not clickable at point (122, 253). Other element would receive the click: <a href="/gp/browse.html?node=1968093031&amp;ref_=nav_em_sbc_mfashion_shirts_0_2_10_4" class="hmenu-item">...</a>
+  (Session info: chrome=151.0.7922.76)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9de0cbdb0bbd1554fef5ec2e5407b70, clickElement {id=f.54C903F2CF23666B4A14A6AEE8C5C070.d.665E5021BF314A6A7927441B87F177ED.e.960}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.76, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58728}, goog:processID: 6012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58728/devtoo..., se:cdpVersion: 151.0.7922.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a9de0cbdb0bbd1554fef5ec2e5407b70)] -> xpath: //a[@class='hmenu-item' and text()='Shirts'][1]]
+Session ID: a9de0cbdb0bbd1554fef5ec2e5407b70
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 42 ms.
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:26 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:14:27 INFO  Utils - [TestNG] Running:
+  C:\Users\BHIMASHANKAR\AppData\Local\Temp\testng-eclipse-1875632024\testng-customsuite.xml
+
+2026-08-10 11:14:27 INFO  BaseTest - =========================================================
+2026-08-10 11:14:27 INFO  PropertyUtils - Loaded base configuration from [C:\Users\BHIMASHANKAR\Downloads\framework\framework\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 11:14:27 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\BHIMASHANKAR\Downloads\framework\framework\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 11:14:27 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 11:14:27 INFO  BaseTest - =========================================================
+2026-08-10 11:14:27 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2026-08-10 11:14:27 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 11:14:27 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 11:14:29 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 11:14:29 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BHIMASHANKAR\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 11:14:31 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 11:14:31 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 11:14:36 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@9b76b60: 162 ms
+2026-08-10 11:14:36 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@10a98392: 24 ms
+2026-08-10 11:14:36 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@326e0b8e: 63 ms
+2026-08-10 11:14:36 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4fe533ff: 14 ms
+2026-08-10 11:14:36 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5e5aafc6: 12 ms
+2026-08-10 11:14:36 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@542f6803: 0 ms
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2026-08-10 11:15:04 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:05 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:05 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:05 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:15:05 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:15:05 INFO  Utils - [TestNG] Running:
+  C:\Users\BHIMASHANKAR\AppData\Local\Temp\testng-eclipse-265488525\testng-customsuite.xml
+
+2026-08-10 11:15:05 INFO  BaseTest - =========================================================
+2026-08-10 11:15:05 INFO  PropertyUtils - Loaded base configuration from [C:\Users\BHIMASHANKAR\Downloads\framework\framework\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 11:15:05 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\BHIMASHANKAR\Downloads\framework\framework\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 11:15:05 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 11:15:05 INFO  BaseTest - =========================================================
+2026-08-10 11:15:05 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2026-08-10 11:15:05 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 11:15:05 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 11:15:05 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 11:15:05 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BHIMASHANKAR\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 11:15:07 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 11:15:07 INFO  BaseTest - Navigating to application URL: [https://www.amazon.in/]
+2026-08-10 11:15:10 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@e26af6: 215 ms
+2026-08-10 11:15:10 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2e1ddc90: 29 ms
+2026-08-10 11:15:10 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@71926a36: 21 ms
+2026-08-10 11:15:10 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@376c7d7d: 33 ms
+2026-08-10 11:15:10 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5434e40c: 24 ms
+2026-08-10 11:15:10 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3b48e183: 0 ms
+2026-08-10 11:16:21 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-08-10 11:16:22 INFO  Utils - [TestNG] Running:
+  C:\Users\BHIMASHANKAR\AppData\Local\Temp\testng-eclipse--1697025314\testng-customsuite.xml
+
+2026-08-10 11:16:22 INFO  BaseTest - =========================================================
+2026-08-10 11:16:22 INFO  PropertyUtils - Loaded base configuration from [C:\Users\BHIMASHANKAR\Downloads\framework\framework\selenium-java-framework\src\main\resources\config.properties]
+2026-08-10 11:16:22 INFO  PropertyUtils - Applied environment overrides for [qa] from [C:\Users\BHIMASHANKAR\Downloads\framework\framework\selenium-java-framework\src\main\resources\config-qa.properties]
+2026-08-10 11:16:22 INFO  BaseTest -  TEST SUITE EXECUTION STARTED | environment=[qa] | browser=[chrome]
+2026-08-10 11:16:22 INFO  BaseTest - =========================================================
+2026-08-10 11:16:22 INFO  Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2026-08-10 11:16:22 INFO  BaseTest - ---- Starting test [validLogin] on thread [1] ----
+2026-08-10 11:16:22 INFO  DriverFactory - Initializing WebDriver | browser=[chrome] | headless=[false] | thread=[1]
+2026-08-10 11:16:22 INFO  WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-10 11:16:22 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BHIMASHANKAR\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-10 11:16:24 INFO  DriverFactory - WebDriver ready | browser=[chrome] | thread=[1]
+2026-08-10 11:16:24 INFO  BaseTest - Navigating to application URL: [https://www.zomato.com/bangalore/restaurants]
+2026-08-10 11:16:32 INFO  Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@44ed0a8f: 189 ms
+2026-08-10 11:16:32 INFO  Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@32177fa5: 2 ms
+2026-08-10 11:16:32 INFO  Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4277127c: 11 ms
+2026-08-10 11:16:32 INFO  Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5981f4a6: 11 ms
+2026-08-10 11:16:32 INFO  Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4b4eced1: 8 ms
+2026-08-10 11:16:32 INFO  Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@71926a36: 0 ms

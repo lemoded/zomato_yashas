@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+    parallel="tests" + thread-count="2" runs the two <test> tags below on
+    separate threads concurrently - each gets its own isolated WebDriver via
+    DriverManager's ThreadLocal storage (Phase 2), so "SmokeTests" and
+    "RegressionTests" execute in two real, simultaneous browser sessions
+    rather than sequentially.
+
+    Both <test> tags reference the same LoginTest class but filter to
+    different @Test groups (Phase 8), demonstrating group-based suite
+    composition: CI can run just the "smoke" group on every commit and the
+    full suite (both groups) on a nightly schedule, without touching this
+    file's structure - only the <run><include> filters change.
+-->
+<suite name="RegressionSuite" parallel="tests" thread-count="2" verbose="1">
+
+    <listeners>
+        <listener class-name="com.company.framework.listeners.TestListener"/>
+    </listeners>
+
+    <test name="SmokeTests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.company.tests.NavigationTest"/>
+        </classes>
+    </test>
+
+    <test name="RegressionTests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.company.tests.NavigationTest"/>
+        </classes>
+    </test>
+
+</suite>
