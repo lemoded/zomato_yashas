@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.company</groupId>
+    <artifactId>selenium-java-framework</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>Selenium Java Automation Framework</name>
+    <description>Enterprise-grade Selenium WebDriver automation framework (Java 21 + Maven + TestNG)</description>
+
+    <properties>
+        <!-- ===================== Build properties ===================== -->
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!-- ===================== Dependency versions ===================== -->
+        <selenium.version>4.24.0</selenium.version>
+        <webdrivermanager.version>5.9.2</webdrivermanager.version>
+        <testng.version>7.10.2</testng.version>
+        <extentreports.version>5.1.2</extentreports.version>
+        <log4j.version>2.23.1</log4j.version>
+        <poi.version>5.3.0</poi.version>
+        <commons.io.version>2.16.1</commons.io.version>
+        <slf4j.version>2.0.16</slf4j.version>
+
+        <!-- Plugin versions -->
+        <compiler.plugin.version>3.13.0</compiler.plugin.version>
+        <surefire.plugin.version>3.3.1</surefire.plugin.version>
+
+        <!-- Runtime override-able params (see: mvn test -Dbrowser=firefox) -->
+        <browser>chrome</browser>
+        <environment>qa</environment>
+        <threadCount>1</threadCount>
+        <suiteXmlFile>testng.xml</suiteXmlFile>
+    </properties>
+
+    <dependencies>
+
+        <!-- ===================== Selenium WebDriver =====================
+             Core browser automation engine. Drives Chrome/Firefox/Edge via
+             the W3C WebDriver protocol. -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <!-- ===================== WebDriverManager =====================
+             Auto-downloads/manages the correct browser driver binary
+             (chromedriver/geckodriver/msedgedriver) matching the installed
+             browser version. Removes manual driver management + avoids
+             "SessionNotCreatedException: version mismatch" issues. -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+        </dependency>
+
+        <!-- ===================== TestNG =====================
+             Test execution engine: annotations, DataProvider, parallel
+             execution, listeners, suite XML, assertions, grouping. -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+        </dependency>
+
+        <!-- ===================== ExtentReports =====================
+             Rich, interactive HTML reporting with screenshots, logs,
+             pass/fail/skip status, system info, per-test dashboards. -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${extentreports.version}</version>
+        </dependency>
+
+        <!-- ===================== Log4j2 =====================
+             Structured, configurable, high-performance logging with
+             rolling file appenders, console appenders and pattern layouts.
+             log4j-core pulls in log4j-api transitively. -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <!-- Routes any SLF4J-based library logs (e.g. Selenium's internal
+             SLF4J usage) into Log4j2 so all logs land in one place. -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j2-impl</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <!-- ===================== Apache POI =====================
+             Reads/writes Excel (.xlsx) files for data-driven testing.
+             poi-ooxml covers the modern OOXML (.xlsx) format. -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+
+        <!-- ===================== Commons IO =====================
+             File utilities (copy screenshot files, read/write helpers)
+             used by ScreenshotUtils and reporting classes. -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons.io.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <finalName>selenium-java-framework</finalName>
+        <plugins>
+
+            <!-- ===================== Maven Compiler Plugin =====================
+                 Compiles source with Java 21 language level. Without this,
+                 Maven defaults to a much older bytecode target. -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${compiler.plugin.version}</version>
+                <configuration>
+                    <release>21</release>
+                </configuration>
+            </plugin>
+
+            <!-- ===================== Maven Surefire Plugin =====================
+                 Executes TestNG via the suite XML file, and forwards
+                 system properties (browser, environment, headless, threadCount)
+                 from the Maven command line down into the JVM running the
+                 tests, so PropertyUtils / DriverFactory can read them via
+                 System.getProperty(). This is what makes
+                 `mvn test -Dbrowser=firefox` work. -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${surefire.plugin.version}</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <systemPropertyVariables>
+                        <browser>${browser}</browser>
+                        <environment>${environment}</environment>
+                        <threadCount>${threadCount}</threadCount>
+                    </systemPropertyVariables>
+                    <!-- Do not fail the Maven build immediately on test
+                         failure so that reports (Extent/Surefire) still get
+                         generated; CI pipelines inspect the report/exit code
+                         instead. -->
+                    <testFailureIgnore>false</testFailureIgnore>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <!-- ===================== Profiles =====================
+         Optional convenience profiles for common CI targets. Activate with
+         `mvn test -Pqa` / `-Puat` / `-Pprod`. They simply pre-set the
+         `environment` property; browser/headless/threadCount are still
+         overridable independently via -D flags. -->
+    <profiles>
+        <profile>
+            <id>qa</id>
+            <properties>
+                <environment>qa</environment>
+            </properties>
+        </profile>
+        <profile>
+            <id>uat</id>
+            <properties>
+                <environment>uat</environment>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <environment>prod</environment>
+            </properties>
+        </profile>
+    </profiles>
+
+</project>
