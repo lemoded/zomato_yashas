@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    status="WARN"   -> Log4j2's own internal startup diagnostics (not our app logs)
+    monitorInterval -> auto-reloads this config file every 30s without restarting the JVM,
+                        useful for changing log levels on a running CI agent.
+-->
+<Configuration status="WARN" monitorInterval="30">
+
+    <Properties>
+        <!-- Central place to change the log directory / pattern once. -->
+        <Property name="LOG_DIR">logs</Property>
+        <Property name="LOG_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss} %-5level %c{1} - %msg%n
+        </Property>
+    </Properties>
+
+    <Appenders>
+
+        <!-- ===================== Console Appender =====================
+             Fast feedback while running locally / watching CI console output. -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+
+        <!-- ===================== Rolling File Appender (all logs) =====================
+             Rolls a new file per day, and also when the current file exceeds 10 MB,
+             so a single log file never grows unbounded during long regression runs. -->
+        <RollingFile name="RollingFile"
+                     fileName="${LOG_DIR}/automation.log"
+                     filePattern="${LOG_DIR}/archive/automation-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+
+        <!-- ===================== Rolling File Appender (errors only) =====================
+             A dedicated error log makes it trivial for CI dashboards / support
+             engineers to spot failures without grepping the full debug log. -->
+        <RollingFile name="ErrorFile"
+                     fileName="${LOG_DIR}/error.log"
+                     filePattern="${LOG_DIR}/archive/error-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Filters>
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+
+        <!-- Quiet down noisy third-party libraries; we only care about WARN+ from them. -->
+        <Logger name="org.openqa.selenium" level="WARN" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+        <Logger name="org.apache.poi" level="WARN" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+        <!-- Our own framework + test packages log at INFO by default.
+             Bump to DEBUG locally when diagnosing a flaky test. -->
+        <Logger name="com.company" level="INFO" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="ErrorFile"/>
+        </Logger>
+
+        <!-- Root logger: catch-all fallback for anything not matched above. -->
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

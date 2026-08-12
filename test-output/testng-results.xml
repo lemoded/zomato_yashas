@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-11T17:20:11 IST" name="Default suite" finished-at="2026-08-11T17:21:21 IST" duration-ms="69936">
+    <groups>
+    </groups>
+    <test started-at="2026-08-11T17:20:11 IST" name="Default test" finished-at="2026-08-11T17:21:21 IST" duration-ms="69936">
+      <class name="com.company.tests.VerifyUploadImage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.company.tests.VerifyUploadImage@7e3060d8]" started-at="2026-08-11T17:20:11 IST" name="beforeSuite" finished-at="2026-08-11T17:20:11 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.company.tests.VerifyUploadImage@7e3060d8]" started-at="2026-08-11T17:20:11 IST" name="setUp" finished-at="2026-08-11T17:20:19 IST" duration-ms="7604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.company.tests.VerifyUploadImage.verifyUserIsAbleToUploadImage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserIsAbleToUploadImage()[pri:0, instance:com.company.tests.VerifyUploadImage@7e3060d8]" started-at="2026-08-11T17:20:19 IST" name="verifyUserIsAbleToUploadImage" finished-at="2026-08-11T17:21:21 IST" duration-ms="62267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToUploadImage -->
+      </class> <!-- com.company.tests.VerifyUploadImage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
