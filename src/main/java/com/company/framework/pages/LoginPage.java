@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 import com.company.framework.base.BasePage;
 import com.company.framework.utils.EmailUtils;
@@ -44,7 +45,7 @@ public class LoginPage extends BasePage {
 			sendKeys(emailTextField, emailStr);
 			click(oneTimePasswordButton);
 
-			log.info("Fetching OTP from Gmail via IMAP...");
+			Reporter.log("Fetching OTP from Gmail via IMAP...", true);
 			String otpString = EmailUtils.fetchOtpFromEmail(emailStr, appPassword, 35);
 
 			if (otpString == null || otpString.trim().isEmpty()) {
@@ -52,7 +53,7 @@ public class LoginPage extends BasePage {
 				System.out.print("Enter OTP received: ");
 			}
 
-			log.info("Entering OTP code: [{}]", otpString);
+			Reporter.log("Entering OTP code: [" + otpString + "]", true);
 			By otpLocator = By.cssSelector("input.sc-hp56s6-1, input[type='number'], section input");
 			List<WebElement> otpInputs = WaitUtils.waitForPresenceOfAllElements(otpLocator);
 			for (int i = 0; i < otpString.length() && i < otpInputs.size(); i++) {
@@ -69,17 +70,17 @@ public class LoginPage extends BasePage {
 		By iframeLocator = By.cssSelector("iframe#auth-login-ui, iframe[src*='accounts.zomato.com'], iframe[id*='auth']");
 		WebElement iframe = WaitUtils.waitForPresenceOfElement(iframeLocator);
 		driver().switchTo().frame(iframe);
-		log.info("Switched to authentication iframe: [{}]", iframeLocator);
+		Reporter.log("Switched to authentication iframe: [" + iframeLocator + "]", true);
 	}
 
 	private void restoreDefaultContent() {
 		try {
 			driver().switchTo().defaultContent();
-			log.info("Switched back to default content");
+			Reporter.log("Switched back to default content", true);
 			By iframeLocator = By.cssSelector("iframe#auth-login-ui, iframe[src*='accounts.zomato.com'], iframe[id*='auth']");
 			try {
 				WaitUtils.waitForInvisibilityOfElement(iframeLocator);
-				log.info("Auth iframe is now closed/invisible");
+				Reporter.log("Auth iframe is now closed/invisible", true);
 			} catch (Exception e) {
 				log.debug("Iframe invisibility wait completed/timed out: {}", e.getMessage());
 			}

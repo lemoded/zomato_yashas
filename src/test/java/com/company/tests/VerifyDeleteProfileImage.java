@@ -7,6 +7,7 @@ import com.company.framework.base.BaseTest;
 import com.company.framework.pages.HomePage;
 import com.company.framework.pages.LoginPage;
 import com.company.framework.pages.ProfilePage;
+import com.company.framework.reporting.ExtentReport;
 
 public class VerifyDeleteProfileImage extends BaseTest {
 
@@ -29,5 +30,6 @@ public class VerifyDeleteProfileImage extends BaseTest {
 
 		Assert.assertTrue(profilePage.isProfilePictureRemovedSuccessMessageDisplayed(),
 				"'Profile picture removed successfully' message should be displayed after deleting profile picture");
+		//ExtentReport.getTest().pass("VerifyDeleteProfileImage successfully");
 	}
 }

@@ -9,6 +9,7 @@ import com.company.framework.base.BaseTest;
 import com.company.framework.pages.HomePage;
 import com.company.framework.pages.LoginPage;
 import com.company.framework.pages.ProfilePage;
+import com.company.framework.reporting.ExtentReport;
 
 public class VerifyUploadImage extends BaseTest {
 
@@ -37,5 +38,6 @@ public class VerifyUploadImage extends BaseTest {
 		profilePage.clickUpdate();
 		Assert.assertTrue(profilePage.isProfileUpdatedSuccessMessageDisplayed(),
 				"'Profile updated successfully' message should be displayed after updating profile");
+		ExtentReport.getTest().pass("VerifyUploadImage successfully");
 	}
 }

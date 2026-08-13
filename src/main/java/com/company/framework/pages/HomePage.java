@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 public class HomePage extends BasePage {
 	
@@ -27,7 +28,7 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//input[@placeholder=\"Search for restaurant, cuisine or a dish\"]")
     private WebElement searchElement;
     
-    @FindBy(xpath = "//input[@placeholder=\"Search for restaurant, cuisine or a dish\"]/following-sibling::div/div[1]")
+    @FindBy(xpath = "//input[@placeholder='Search for restaurant, cuisine or a dish']/following-sibling::div/div[1]")
     private WebElement firstSuggestedFieldElement;
     
     @FindBy(xpath = "(//h4)[1]")
@@ -52,6 +53,15 @@ public class HomePage extends BasePage {
 		click(userProfileAvatar);
 	}
 
+	public boolean isUserProfileAvatarDisplayed() {
+		try {
+			return isDisplayed(WaitUtils.waitForElementVisible(userProfileAvatar));
+		} catch (Exception e) {
+			log.warn("User profile avatar is not displayed: {}", e.getMessage());
+			return false;
+		}
+	}
+
 	public void clickProfileOption() {
 		click(profileOption);
 	}
@@ -59,13 +69,13 @@ public class HomePage extends BasePage {
 	public String enterDataInSearchTF()
 	{
 		click(searchElement);
-		log.info("Click on search textfield");
+		Reporter.log("Click on search textfield", true);
 		sendKeys(searchElement, searchData);
-		log.info("Entering " + searchData);
+		Reporter.log("Entering " + searchData, true);
 		click(firstSuggestedFieldElement);
-		log.info("click on the first resto");
+		Reporter.log("click on the first resto", true);
 		String firstRestaurant = getText(firstRestaurantElement);
-		log.info("Name of the first resto is " + firstRestaurant);
+		Reporter.log("Name of the first resto is " + firstRestaurant, true);
 		click(firstRestaurantElement);
 		return firstRestaurant;
 		

@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Reporter;
 
 import com.company.framework.base.BasePage;
 import com.company.framework.utils.WaitUtils;
@@ -93,7 +94,7 @@ public class ProfilePage extends BasePage {
 	}
 
 	public void clickOnRecentlyViewed() {
-		log.info("Clicking on Recently Viewed header");
+		Reporter.log("Clicking on Recently Viewed header", true);
 		By recentlyViewedLocator = By.xpath("//h2[.='Recently Viewed'] | //div[.='Recently Viewed'] | //span[.='Recently Viewed'] | //*[contains(text(),'Recently Viewed')]");
 		try {
 			WebElement element = WaitUtils.waitForElementVisible(recentlyViewedLocator);
@@ -106,7 +107,7 @@ public class ProfilePage extends BasePage {
 	}
 
 	public boolean isRestaurantInRecentlyViewedDisplayed(String restaurantName) {
-		log.info("Verifying restaurant [{}] is displayed under Recently Viewed section...", restaurantName);
+		Reporter.log("Verifying restaurant [" + restaurantName + "] is displayed under Recently Viewed section...", true);
 		By locator = By.xpath(
 			"//a[.='" + restaurantName + "'] | " +
 			"//a[.='Paakashala'] | " +
@@ -131,7 +132,7 @@ public class ProfilePage extends BasePage {
 	}
 
 	public void clickEditProfile() {
-		log.info("Clicking Edit profile button");
+		Reporter.log("Clicking Edit profile button", true);
 		try {
 			click(editProfileButton);
 		} catch (Exception e) {
@@ -141,7 +142,7 @@ public class ProfilePage extends BasePage {
 	}
 
 	public void clickCameraIcon() {
-		log.info("Clicking 2nd camera icon...");
+		Reporter.log("Clicking 2nd camera icon...", true);
 		By cameraLocator = By.xpath(
 			"(//*[contains(text(), 'camera-fill') or @title='camera-fill'])[2] | " +
 			"(//*[contains(text(), 'camera-fill') or @title='camera-fill']/..)[2] | " +
@@ -159,24 +160,13 @@ public class ProfilePage extends BasePage {
 	}
 
 	public void clickChangePhoto() {
-		log.info("Clicking Change Photo option");
-		By changePhotoLocator = By.xpath("//div[normalize-space()='Change Photo'] | //span[normalize-space()='Change Photo'] | //*[contains(text(),'Change Photo')]");
-		try {
-			WebElement element = WaitUtils.waitForPresenceOfElement(changePhotoLocator);
-			try {
-				element.click();
-			} catch (Exception e) {
-				log.warn("Native click on Change Photo option failed ({}), using JS click", e.getMessage());
-				javaScriptClick(element);
-			}
-		} catch (Exception e) {
-			log.warn("Direct lookup for Change Photo failed: {}", e.getMessage());
-			javaScriptClick(changePhotoOption);
-		}
+		Reporter.log("Preparing Change Photo option (bypassing native OS file picker popup)", true);
+		// Native click on file input/label triggers OS file picker dialog which blocks Selenium WebDriver.
+		// File path is sent directly to <input type='file'> in uploadImage().
 	}
 
 	public void clickDeletePhoto() {
-		log.info("Clicking Delete Photo option");
+		Reporter.log("Clicking Delete Photo option", true);
 		By deletePhotoLocator = By.xpath("//div[normalize-space()='Delete Photo'] | //span[normalize-space()='Delete Photo'] | //*[contains(text(),'Delete Photo')]");
 		try {
 			WebElement element = WaitUtils.waitForPresenceOfElement(deletePhotoLocator);
@@ -193,7 +183,7 @@ public class ProfilePage extends BasePage {
 	}
 
 	public void clickConfirmDeleteYes() {
-		log.info("Clicking Yes on Delete Photo confirmation modal");
+		Reporter.log("Clicking Yes on Delete Photo confirmation modal", true);
 		By yesLocator = By.xpath("//button[.//span[.='Yes']] | //span[.='Yes']/ancestor::button[1] | //span[.='Yes']");
 		try {
 			WebElement element = WaitUtils.waitForPresenceOfElement(yesLocator);
@@ -210,7 +200,7 @@ public class ProfilePage extends BasePage {
 	}
 
 	public boolean isProfilePictureRemovedSuccessMessageDisplayed() {
-		log.info("Verifying 'Profile picture removed successfully' message...");
+		Reporter.log("Verifying 'Profile picture removed successfully' message...", true);
 		try {
 			By successMsgLocator = By.xpath("//span[.='Profile picture removed successfully'] | //div[contains(text(),'Profile picture removed successfully')] | //*[contains(text(),'Profile picture removed successfully')]");
 			WebElement element = WaitUtils.waitForElementVisible(successMsgLocator);
@@ -222,7 +212,7 @@ public class ProfilePage extends BasePage {
 	}
 
 	public void uploadImage(String filePath) {
-		log.info("Uploading image file: [{}]", filePath);
+		Reporter.log("Uploading image file: [" + filePath + "]", true);
 		By fileInputLocator = By.xpath("//input[@type='file']");
 		List<WebElement> inputs = WaitUtils.waitForPresenceOfAllElements(fileInputLocator);
 		if (inputs.isEmpty()) {
@@ -239,11 +229,11 @@ public class ProfilePage extends BasePage {
 		}
 
 		targetInput.sendKeys(filePath);
-		log.info("Successfully sent file path to <input type='file'> element: [{}]", filePath);
+		Reporter.log("Successfully sent file path to <input type='file'> element: [" + filePath + "]", true);
 	}
 
 	public void clickUpdate() {
-		log.info("Clicking Update button");
+		Reporter.log("Clicking Update button", true);
 		try {
 			click(updateButton);
 		} catch (Exception e) {
@@ -253,7 +243,7 @@ public class ProfilePage extends BasePage {
 	}
 
 	public boolean isProfileUpdatedSuccessMessageDisplayed() {
-		log.info("Verifying 'Profile updated successfully' message...");
+		Reporter.log("Verifying 'Profile updated successfully' message...", true);
 		try {
 			By successMsgLocator = By.xpath("//span[.='Profile updated successfully'] | //div[contains(text(),'Profile updated successfully')] | //*[contains(text(),'Profile updated successfully')]");
 			WebElement element = WaitUtils.waitForElementVisible(successMsgLocator);
